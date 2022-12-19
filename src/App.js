@@ -9,6 +9,9 @@ const deCrement = () => {
      setCount(prevCount => prevCount - 1)
 }
 
+useEffect(() => {
+     console.log("First commit")
+}, [])
 
  return (
   <>
